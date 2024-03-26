@@ -1,2 +1,3 @@
 # StudentCourseReg
-Project using Express js,Bootstrap,Mysql 
+Project using MERN STACK
+
