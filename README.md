@@ -6,7 +6,6 @@ Test
 
 # Blogging Platform
 
-![Project Logo](project-logo.png) <!-- If available, include a logo or banner image -->
 
 Welcome to the Blogging Platform! This project is a full-stack application built with React.js for the frontend and Express.js for the backend. It provides users with the ability to register, log in, create, edit, and view blog posts. This README.md serves as a guide to understand the project, install it locally, and contribute to its development.
 
@@ -37,41 +36,41 @@ To run the Blogging Platform locally, follow these steps:
 1. **Clone the Repository**: Clone this repository to your local machine using the following command:
 
     ```bash
-    git clone https://github.com/your-username/blogging-platform.git
+    git clone https://github.com/thnamuS/BlogApp.git
     ```
 
 2. **Navigate to Project Directory**: Change your current directory to the cloned repository:
 
     ```bash
-    cd blogging-platform
+    cd BlogApp
     ```
 
 3. **Install Dependencies**: Install frontend and backend dependencies separately:
 
     ```bash
-    cd frontend
+    cd client
     npm install
-    cd ../backend
+    cd ../api
     npm install
     ```
 
 4. **Set Up MongoDB**: Ensure MongoDB is installed and running on your system. Update the MongoDB connection string in the backend `app.js` file if necessary.
 
-5. **Start Backend Server**: Start the backend Express server:
+5. **Start Backend Server**: Start the backend Express server: here in my scripts i changes the scripts for run dev as nodemon index.js 
 
     ```bash
-    cd backend
-    npm start
+    cd api
+    npm run dev
     ```
 
 6. **Start Frontend Development Server**: Start the frontend development server:
 
     ```bash
-    cd frontend
-    npm start
+    cd client
+    npm run dev
     ```
 
-7. **Access the Application**: Once both servers are running, access the blogging platform through your web browser. The frontend will be available at `http://localhost:3000`, while the backend API will be accessible at `http://localhost:3001`.
+7. **Access the Application**: Once both servers are running, access the blogging platform through your web browser. The frontend will be available at `http://localhost:5173`, while the backend API will be accessible at `http://localhost:3000`.
 
 ## Usage
 
