@@ -1,11 +1,8 @@
-# StudentCourseReg
+# Blog Site
+
 Project using MERN STACK
 
-Test    
-
-
 # Blogging Platform
-
 
 Welcome to the Blogging Platform! This project is a full-stack application built with React.js for the frontend and Express.js for the backend. It provides users with the ability to register, log in, create, edit, and view blog posts. This README.md serves as a guide to understand the project, install it locally, and contribute to its development.
 
@@ -95,6 +92,5 @@ The backend API provides the following routes for interaction:
 - `GET /post/:id`: Retrieve a specific blog post by ID.
 - `PUT /post`: Update an existing blog post by ID.
 
-## Contributing
+https://github.com/thnamuS/BlogApp/assets/118098664/130bdecf-b9e1-43d2-927e-827884c8c46e
 
-Contributions to this project are welcome! If you'd like to contribute, please follow the guidelines outlined in the respective frontend and backend directories.
